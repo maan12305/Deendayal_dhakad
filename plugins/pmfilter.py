@@ -806,7 +806,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
                # InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
            # ]
        # )
-        btn.insert(0, [
+        btn.insert(0,[
             InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ ", callback_data=f"sendfiles#{key}")
         ])
