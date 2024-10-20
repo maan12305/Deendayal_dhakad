@@ -114,8 +114,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>🙋 ʜᴇʏ {user} 😍 ,\n\n𝒀𝒐𝒖 𝒄𝒂𝒏 𝒔𝒆𝒂𝒓𝒄𝒉 𝒇𝒐𝒓 𝒎𝒐𝒗𝒊𝒆𝒔 𝒐𝒏𝒍𝒚 𝒐𝒏 𝒐𝒖𝒓 <a href=https://t.me/Deendayal_Movie_Group>𝑴𝒐𝒗𝒊𝒆 𝑮𝒓𝒐𝒖𝒑.</a> 𝒀𝒐𝒖 𝒂𝒓𝒆 𝒏𝒐𝒕 𝒂𝒍𝒍𝒐𝒘𝒆𝒅 𝒕𝒐 𝒔𝒆𝒂𝒓𝒄𝒉 𝒇𝒐𝒓 𝒎𝒐𝒗𝒊𝒆𝒔 𝒐𝒏 𝑫𝒊𝒓𝒆𝒄𝒕 𝑩𝒐𝒕. 𝑷𝒍𝒆𝒂𝒔𝒆 𝒋𝒐𝒊𝒏 𝒐𝒖𝒓 𝒎𝒐𝒗𝒊𝒆 𝒈𝒓𝒐𝒖𝒑 𝒃𝒚 𝒄𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝒐𝒏 𝒕𝒉𝒆 <a href=https://t.me/Deendayal_Movie_Group> 𝑹𝑬𝑸𝑼𝑬𝑺𝑻 𝑯𝑬𝑹𝑬</a> 𝒃𝒖𝒕𝒕𝒐𝒏 𝒈𝒊𝒗𝒆𝒏 𝒃𝒆𝒍𝒐𝒘 𝒂𝒏𝒅 𝒔𝒆𝒂𝒓𝒄𝒉 𝒚𝒐𝒖𝒓 𝒇𝒂𝒗𝒐𝒓𝒊𝒕𝒆 𝒎𝒐𝒗𝒊𝒆 𝒕𝒉𝒆𝒓𝒆 👇\n\n<blockquote>आप केवल हमारे <a href=https://t.me/Deendayal_Movie_Group>𝑴𝒐𝒗𝒊𝒆 𝑮𝒓𝒐𝒖𝒑 </a> पर ही 𝑴𝒐𝒗𝒊𝒆 𝑺𝒆𝒂𝒓𝒄𝒉 कर सकते हो । आपको 𝑫𝒊𝒓𝒆𝒄𝒕 𝑩𝒐𝒕 पर 𝑴𝒐𝒗𝒊𝒆 𝑺𝒆𝒂𝒓𝒄𝒉 करने की 𝑷𝒆𝒓𝒎𝒊𝒔𝒔𝒊𝒐𝒏 नहीं है कृपया नीचे दिए गए <a href=https://t.me/Deendayal_Movie_Group>𝑹𝑬𝑸𝑼𝑬𝑺𝑻 𝑯𝑬𝑹𝑬</a> वाले 𝑩𝒖𝒕𝒕𝒐𝒏 पर क्लिक करके हमारे 𝑴𝒐𝒗𝒊𝒆 𝑮𝒓𝒐𝒖𝒑 को 𝑱𝒐𝒊𝒏 करें और वहां पर अपनी मनपसंद 𝑴𝒐𝒗𝒊𝒆 𝑺𝒆𝒂𝒓𝒄𝒉 सर्च करें ।</blockquote></b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+kF6kYm_7o_wxM2E1")]])
+         text=f"ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/maam_movies_backup")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -184,41 +184,41 @@ async def next_page(bot, query):
         ]
 
 
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
-            ]
-        )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+      #  btn.insert(0, 
+          #  [
+          #      InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+        #    ]
+       # )
+      #  btn.insert(0, 
+          #  [
+          #      InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                 #InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+             #   InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+             #   InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+          #  ]
+      #  )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
     else:
-        btn = []
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
-            ]
-        )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+       # btn = []
+     #   btn.insert(0, 
+       #     [
+         #       InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+         #   ]
+      #  )
+        #btn.insert(0, 
+         #   [
+            #    InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                 #InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+              #  InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+               # InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+          #  ]
+      #  )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"), 
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -423,41 +423,41 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             ]
             for file in files
         ]
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
-            ]
-        )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+      #  btn.insert(0, 
+          #  [
+           #     InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+          #  ]
+       # )
+       # btn.insert(0, 
+      #      [
+             #   InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                 #InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+             #   InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+             #   InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+            #]
+        #)
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
     else:
-        btn = []
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
-            ]
-        )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+        #btn = []
+      #  btn.insert(0, 
+         #   [
+            #    InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+         #   ]
+       # )
+       # btn.insert(0, 
+          #  [
+             #   InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                 #InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+              #  InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+              #  InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+            #]
+      #  )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -590,41 +590,41 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
             for file in files
         ]
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
-            ]
-        )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+       # btn.insert(0, 
+          #  [
+             #   InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+          #  ]
+       # )
+      #  btn.insert(0, 
+          #  [
+              #  InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                 #InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+              #  InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+              #  InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+            #]
+       # )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
     else:
-        btn = []
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
-            ]
-        )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+       # btn = []
+     #   btn.insert(0, 
+         #   [
+            #    InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+          #  ]
+       #2 )
+      #  btn.insert(0, 
+            #[
+              #  InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                 #InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+              #  InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+              #  InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+           # ]
+        #)
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -788,26 +788,26 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             for file in files
         ]
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
-            InlineKeyboardButton("ꜱᴇʟᴇᴄᴛ ᴀɢᴀɪɴ", callback_data=f"seasons#{key}")
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
+          #  InlineKeyboardButton("ꜱᴇʟᴇᴄᴛ ᴀɢᴀɪɴ", callback_data=f"seasons#{key}")
         ])
     else:
-        btn = []
-        btn.insert(0, 
+       # btn = []
+       # btn.insert(0, 
+           # [
+            #    InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+         #   ]
+     #   )
+       # btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
-            ]
-        )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+                #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                # InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+               # InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+               # InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+           # ]
+       # )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=plan"),
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ ", callback_data=f"sendfiles#{key}")
         ])
     
@@ -1510,7 +1510,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/Deendayal_Movies_Group")
+                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/maam_movies_backup")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1535,7 +1535,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/Deendayal_Movies_Group")
+                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/maam_movies_backup")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1636,20 +1636,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(text=script.SINFO, show_alert=True)
 
     elif query.data == "start":
-        buttons = [[
+        buttons = [
                     #InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
-                    InlineKeyboardButton('⚜️ Rᴇғᴇʀ & Gᴇᴛ Pʀᴇᴍɪᴜᴍ ⚜️', callback_data='reffff')
+                    InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🌳 Tᴏᴘ Sᴇᴀʀᴄʜɪɴɢ', callback_data="topsearch"),
-                    InlineKeyboardButton('⚜️ sᴜᴘᴘᴏʀᴛ ', callback_data='channels')
+                    InlineKeyboardButton('Hᴇʟᴘ ⚙️', callback_data="help"),
+                    InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🦧 ʜᴇʟᴘ ', callback_data='help'),
-                    InlineKeyboardButton('❤️ ᴀʙᴏᴜᴛ ', callback_data='about')
+                    InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ ⚡', url='https://t.me/maam_movies_backup'),
+                    InlineKeyboardButton('Fᴏʟʟᴏᴡ Iɴꜱᴛᴀ ✆', url="https://www.instagram.com/__maan_happy__?igsh=ZmptbDd1bzR4aW51")
                 ],[
-                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='donation'),
-                    InlineKeyboardButton('Eᴀʀɴ ᴍᴏɴᴇʏ..🍁', callback_data="shortlink_info")
+                    InlineKeyboardButton('💳 Gᴇᴛ Pʀᴇᴍɪᴜᴍ Fᴏʀ Fʀᴇᴇ 💳', callback_data="reffff")
                 ],[
-                    InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
+                    InlineKeyboardButton('✵ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ✵', url="https://t.me/movie_update_channel0")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1677,9 +1676,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "purchase":
         buttons = [[
-            InlineKeyboardButton('💵 ᴘᴀʏ ᴠɪᴀ ᴜᴘɪ ɪᴅ 💵', callback_data='upi_info')
+            InlineKeyboardButton('💵 ᴘᴀʏ ᴠɪᴀ ᴜᴘɪ ɪᴅ', callback_data='upi_info')
         ],[
-            InlineKeyboardButton('📸 ꜱᴄᴀɴ ǫʀ ᴄᴏᴅᴇ 📸', callback_data='qr_info')
+            InlineKeyboardButton('📸 ꜱᴄᴀɴ ǫʀ ᴄᴏᴅᴇ', callback_data='qr_info')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
@@ -1697,7 +1696,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "donation":
         buttons = [[
-            InlineKeyboardButton('🌲 Sᴇɴᴅ Dᴏɴᴀᴛᴇ Sᴄʀᴇᴇɴsʜᴏᴛ Hᴇʀᴇ', user_id=int(6646028262))
+            InlineKeyboardButton('🌲 Sᴇɴᴅ Dᴏɴᴀᴛᴇ Sᴄʀᴇᴇɴsʜᴏᴛ Hᴇʀᴇ', user_id=int(1462396507))
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
         ]]
@@ -1726,7 +1725,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "upi_info":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(6646028262))
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(1462396507))
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
@@ -1744,7 +1743,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "qr_info":
         buttons = [[
-            InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ', user_id=int(6646028262))
+            InlineKeyboardButton('📲 ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(1462396507))
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
@@ -1777,16 +1776,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "seeplans":
         btn = [[
-            InlineKeyboardButton('🔥 ꜰʀᴇᴇ ᴛʀɪᴀʟ 🔥', callback_data='free')
+            InlineKeyboardButton('ꜰʀᴇᴇ ᴛʀɪᴀʟ 🔥', callback_data='free')
         ],[
-            InlineKeyboardButton('❤️ ʙʀᴏɴᴢᴇ ', callback_data='broze'),
-            InlineKeyboardButton('☔ ꜱɪʟᴠᴇʀ ', callback_data='silver')
+            InlineKeyboardButton('ʙʀᴏɴᴢᴇ 🥉', callback_data='broze'),
+            InlineKeyboardButton('ꜱɪʟᴠᴇʀ 🥈', callback_data='silver')
         ],[
-            InlineKeyboardButton('👮 ɢᴏʟᴅ ', callback_data='gold'),
-            InlineKeyboardButton('💘 ᴘʟᴀᴛɪɴᴜᴍ ', callback_data='platinum')
+            InlineKeyboardButton('ɢᴏʟᴅ 🥇', callback_data='gold'),
+            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ 🏅', callback_data='platinum')
         ],[
-            InlineKeyboardButton('💎 ᴅɪᴀᴍᴏɴᴅ ', callback_data='diamond'),
-            InlineKeyboardButton('🤦 ᴏᴛʜᴇʀ ', callback_data='other')
+            InlineKeyboardButton('ᴅɪᴀᴍᴏɴᴅ 💎', callback_data='diamond'),
+            InlineKeyboardButton('ᴏᴛʜᴇʀ ', callback_data='other')
         ],[            
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
@@ -1801,16 +1800,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "premium_info":
         buttons = [[
-            InlineKeyboardButton('🔥 ꜰʀᴇᴇ ᴛʀɪᴀʟ 🔥', callback_data='free')
+            InlineKeyboardButton('ꜰʀᴇᴇ ᴛʀɪᴀʟ 🔥', callback_data='free')
         ],[
-            InlineKeyboardButton('❤️ ʙʀᴏɴᴢᴇ ', callback_data='broze'),
-            InlineKeyboardButton('☔ ꜱɪʟᴠᴇʀ ', callback_data='silver')
+            InlineKeyboardButton('ʙʀᴏɴᴢᴇ 🥉', callback_data='broze'),
+            InlineKeyboardButton('ꜱɪʟᴠᴇʀ 🥈', callback_data='silver')
         ],[
-            InlineKeyboardButton('👮 ɢᴏʟᴅ ', callback_data='gold'),
-            InlineKeyboardButton('💘 ᴘʟᴀᴛɪɴᴜᴍ ', callback_data='platinum')
+            InlineKeyboardButton('ɢᴏʟᴅ 🥇', callback_data='gold'),
+            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ 🏅', callback_data='platinum')
         ],[
-            InlineKeyboardButton('💎 ᴅɪᴀᴍᴏɴᴅ ', callback_data='diamond'),
-            InlineKeyboardButton('🤦 ᴏᴛʜᴇʀ ', callback_data='other')
+            InlineKeyboardButton('ᴅɪᴀᴍᴏɴᴅ 💎', callback_data='diamond'),
+            InlineKeyboardButton('ᴏᴛʜᴇʀ ', callback_data='other')
         ],[            
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -1951,7 +1950,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "other":
         buttons = [[
-            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ', user_id=int(6646028262))
+            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ', user_id=int(1462396507))
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='diamond'),
             InlineKeyboardButton('7 / 7', callback_data='pagesn1'),
@@ -1973,11 +1972,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "channels":
         buttons = [[           
-            InlineKeyboardButton('⚜️ Movie Group ⚜️', url="https://t.me/Deendayal_Movie_Group"),
-            InlineKeyboardButton('☔ Contact ☔', url="https://t.me/Contact_Deendayal_bot")
+            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url="https://t.me/maam_movies_backup"),
+            InlineKeyboardButton('Oᴡɴᴇʀ', url="https://t.me/Im_professor_22")
         ],[
-            InlineKeyboardButton('🔥 Movie Update Notification 🔥', url="https://t.me/Deendayal_files_Update"),
-            InlineKeyboardButton('👮 Update Channel 👮', url="https://t.me/Deendayal_dhakad")
+            InlineKeyboardButton('Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇ', url="https://t.me/movie_update_channel0"),
+            InlineKeyboardButton('Oᴡɴᴇʀ', url="https://t.me/Im_professor_22")
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
         ]] 
@@ -2026,20 +2025,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🤼ᴜꜱᴇʀ', callback_data='users'),
-            InlineKeyboardButton('😊Aᴅᴍɪɴ', callback_data='admic'),
-            InlineKeyboardButton('💔ɢʀᴏᴜᴘ', callback_data='group')
+            InlineKeyboardButton('Usᴇʀ', callback_data='users'),
+            InlineKeyboardButton('Aᴅᴍɪɴ', callback_data='admic'),
+            InlineKeyboardButton('Gʀᴏᴜᴘ', callback_data='group')
         ], [
             #InlineKeyboardButton('🩸YouTube', callback_data='YOUTUBE'),
-            InlineKeyboardButton('🎵SONG', callback_data='SONG'),
+            InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs', callback_data='SONG'),
         ], [
-            InlineKeyboardButton('🔻Instagram', callback_data='INSTAGRAM')
+            InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ Iɴsᴛᴀ', callback_data='INSTAGRAM')
         ], [
-            InlineKeyboardButton('🌷FONT', callback_data='font'),
-            InlineKeyboardButton('📌JSON', callback_data='json'),
+            InlineKeyboardButton('Fᴏɴᴛ', callback_data='font'),
+            InlineKeyboardButton('Jsᴏɴ', callback_data='json'),
         ],[
-            InlineKeyboardButton ('💃STICKER ID', callback_data='sticker'),
-            InlineKeyboardButton('♨️Telegraph', callback_data='tele'),
+            InlineKeyboardButton ('Sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='sticker'),
+            InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴘʜ', callback_data='tele'),
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -2052,7 +2051,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
-            InlineKeyboardButton ('🪔 sᴏᴜʀᴄᴇ', callback_data='source'),
+            InlineKeyboardButton ('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ✧', callback_data='source'),
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -2434,36 +2433,36 @@ async def auto_filter(client, msg, spoll=False):
                 InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
             ]
         )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+     #   btn.insert(0, 
+         #   [
+              #  InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                 #InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+               # InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+              #  InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+           # ]
+       # )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
     else:
-        btn = []
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
-            ]
-        )
-        btn.insert(0, 
-            [
-                InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+      #  btn = []
+      #  btn.insert(0, 
+          #  [
+             #   InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+          #  ]
+       # )
+      #  btn.insert(0, 
+            #[
+             #   InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
                 #InlineKeyboardButton(f'Qᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
-            ]
-        )
+           #    InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
+             #   InlineKeyboardButton("Sᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+           # ]
+        #)
         btn.insert(0, [
-            InlineKeyboardButton("⚜️ 𝐁𝐮𝐲 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
+            InlineKeyboardButton("🚩 Dɪʀᴇᴄᴛ Fɪʟᴇs ? Nᴏ Vᴇʀɪғʏ", url=f"https://t.me/premium_plansa"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -2531,9 +2530,9 @@ async def auto_filter(client, msg, spoll=False):
                 cap += f"<b>\n<a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📁 {get_size(file.file_size)} ▷ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>🧿 ᴛɪᴛʟᴇ : <code>{search}</code>\n📂 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n🌳 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝑭𝒊𝒍𝒆𝒔 👇 \n\n</b>"
+            cap = f"<b>✪ {search} 𝙐𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝘽𝙮 ☟</b><b>\n@maam_movies_backup</b>\n<b>⚜ 𝙁𝙤𝙪𝙣𝙙𝙚𝙙 𝙍𝙚𝙨𝙪𝙡𝙩𝙨 𝙁𝙤𝙧 𝙔𝙤𝙪𝙧 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 ❤️‍🔥</b>"
         else:
-            cap = f"<b>🧿 ᴛɪᴛʟᴇ : <code>{search}</code>\n📂 ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{total_results}</code>\n📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n⏰ ʀᴇsᴜʟᴛ ɪɴ : <code>{remaining_seconds} Sᴇᴄᴏɴᴅs</code>\n\n🌳 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝑭𝒊𝒍𝒆𝒔 👇 \n\n</b>"
+            cap = f"<b>✪ {search} 𝙐𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝘽𝙮 ☟</b><b>\n@maam_movies_backup</b>\n<b>⚜ 𝙁𝙤𝙪𝙣𝙙𝙚𝙙 𝙍𝙚𝙨𝙪𝙡𝙩𝙨 𝙁𝙤𝙧 𝙔𝙤𝙪𝙧 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 ❤️‍🔥</b>"
             # cap+="<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
             for file in files:
                 cap += f"<b><a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'> 📁 {get_size(file.file_size)} ▷ {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
