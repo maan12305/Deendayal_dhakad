@@ -22,7 +22,7 @@ async def vrfs(client, message):
         InlineKeyboardButton("ʏᴇsᴛᴇʀᴅᴀʏ", callback_data=f'vrrfrs#yes'), 
         InlineKeyboardButton(f"{yesterday}", callback_data=f'vrrfrs#yes')
         ],[
-        InlineKeyboardButton("ᴛʜɪs ᴡᴇᴇᴋ, callback_data=f'vrrfrs#week'), 
+        InlineKeyboardButton("ᴛʜɪs ᴡᴇᴇᴋ", callback_data=f'vrrfrs#week'), 
         InlineKeyboardButton(f"{this_week}", callback_data=f'vrrfrs#week')     
         ],[
         InlineKeyboardButton("ᴛʜɪs ᴍᴏɴᴛʜ", callback_data=f'vrrfrs#mont'), 
