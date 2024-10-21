@@ -76,7 +76,7 @@ async def send_msg(bot, filename, caption):
 
         filename = filename.replace('(', '').replace(')', '').replace('[', '').replace(']', '').replace('{', '').replace('}', '').replace(':', '').replace(';', '').replace("'", '').replace('-', '').replace('!', '')
         
-        text = "`{file_name}`\n**📀Quality- {}**\n**🔊Audio- {}**\n**📆Year- {}**"
+        text = "`{}` ✅\n**📀Quality- {}**\n**🔊Audio- {}**\n**📆Year- {}**"
         text = text.format(filename, quality, language)
         if await add_name(6646028262, filename):
           imdb_task = get_movie_details(filename)
