@@ -374,8 +374,8 @@ async def start(client, message):
             deendayal_message = (
                 f"**Name: {message.from_user.mention}**\n"
                 f"**Time: {current_time}**\n"
-                f"**Date: {current_date}**\n"
-                f"**📌 ᴜsᴇʀ ᴠᴇʀɪғɪᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ**"
+                f"**Date: {current_date}**\n\n"
+                f"**📌 ᴜsᴇʀ ᴠᴇʀɪғɪᴇᴅ**"
             )
             await client.send_message(chat_id=DEENDAYAL_VERIFIED_LOG, text=deendayal_message)
 
