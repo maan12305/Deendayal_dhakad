@@ -232,7 +232,7 @@ Nᴀᴍᴇ - {}
 Iᴅ : <code>{}</code>
 Nᴀᴍᴇ : {}
 
-Mᴇꜱꜱᴀɢᴇ : '{}'"""
+Mᴇꜱꜱᴀɢᴇ : <code>{}</code>"""
     
     CAPTION = """**⍟ File Name🔻**</b>\n\n`{file_name}`</a></b>\n\n<b>**⍟  File Size 🔻\n\n [ {file_size} ]</a></b>**"""
 
