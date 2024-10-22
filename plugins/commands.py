@@ -115,9 +115,7 @@ async def start(client, message):
         await client.send_photo(
             chat_id=message.from_user.id,
             photo="https://graph.org/file/7478ff3eac37f4329c3d8.jpg",
-            caption="**You have not joined our Update Channel.\nClick on the Join Updats Channel button and join our updates channel.\n After that, please try again.\n\n**\n\n"
-            "**आपने हमारे Update Channel को join नहीं कर रखा है।**\n"
-            "**Join Updates Channel वाले बटन पर Click करें। और हमारे अपडेट चैनल को ज्वाइन करें। इसके बाद आप फिर से Try करें।.....**",
+            caption="**ʏᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ . Cʟɪᴄᴋ ᴏɴ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴀғᴛᴇʀ ᴛʜᴀᴛ‚ ᴄʟɪᴄᴋ ᴏɴ ᴛʀʏ ᴀɢᴀɪɴ ʙᴜᴛᴛᴏɴ 👇**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
         )
