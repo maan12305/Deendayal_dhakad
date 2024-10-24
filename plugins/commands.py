@@ -594,17 +594,17 @@ async def start(client, message):
                 except:
                     return
             await msg.edit_caption(f_caption)
-            btn = [[
-                InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
-            ]]
+           # btn = [[
+             #   InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
+          #  ]]
         #    k = await msg.reply("<b><u>🚫 ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇ ɪɴ ғᴇᴡ ʜᴏᴜʀꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ, ꜱᴏ ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴛᴏ ᴏᴛʜᴇʀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛꜱ ᴏʀ ɪɴ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇ.</i></b>",quote=True)
         #    await asyncio.sleep(86400)
         #    await msg.delete()
          #   await k.edit_text("<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!</b>")
           #  return
       #  except:
-            pass
-        return await message.reply('ɴᴏ ꜱᴜᴄʜ ꜰɪʟᴇ ᴇxɪꜱᴛꜱ !')
+        #    pass
+     #   return await message.reply('ɴᴏ ꜱᴜᴄʜ ꜰɪʟᴇ ᴇxɪꜱᴛꜱ !')
     files = files_[0]
     title = '' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
@@ -651,9 +651,9 @@ async def start(client, message):
             ]
         )
     )
-    btn = [[
-        InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
-    ]]
+  #  btn = [[
+    #    InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
+  #  ]]
    # k = await msg.reply("<b><u>🚫 ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇ ɪɴ ғᴇᴡ ʜᴏᴜʀꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ, ꜱᴏ ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴛᴏ ᴏᴛʜᴇʀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛꜱ ᴏʀ ɪɴ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇ.</i></b>",quote=True)
   #  await asyncio.sleep(86400)
   #  await msg.delete()
