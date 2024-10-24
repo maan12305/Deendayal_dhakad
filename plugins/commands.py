@@ -594,9 +594,9 @@ async def start(client, message):
                 except:
                     return
             await msg.edit_caption(f_caption)
-           # btn = [[
-             #   InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
-          #  ]]
+            btn = [[
+                InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
+            ]]
         #    k = await msg.reply("<b><u>🚫 ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇ ɪɴ ғᴇᴡ ʜᴏᴜʀꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ, ꜱᴏ ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴛᴏ ᴏᴛʜᴇʀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛꜱ ᴏʀ ɪɴ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇ.</i></b>",quote=True)
         #    await asyncio.sleep(86400)
         #    await msg.delete()
