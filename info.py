@@ -63,7 +63,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'yuvi315@axl')
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://noname5911315:maanjatt@yuvrajmaan.ypfzoc6.mongodb.net/?retryWrites=true&w=majority&appName=yuvrajmaan")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://noname5911315:maanjatt@yuvrajmaan.ypfzoc6.mongodb.net/?retryWrites=true&w=majority&appName=yuvrajmaan")
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobottt")
+DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
 # ============================
